@@ -1,0 +1,28 @@
+.main-content {
+    padding: 20px;
+}
+
+.content {
+    width: 90%; /* Make it take almost full width on mobile devices */
+    max-width: 768px; /* Limit the max width for larger screens */
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+    .content {
+        width: 95%; /* Use more of the screen width on small devices */
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .content {
+        width: 100%; /* Take full width on very small screens like iPhone */
+        padding: 15px;
+    }
+}

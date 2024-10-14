@@ -1,0 +1,103 @@
+.main-content h1 {
+    background: linear-gradient(to right, #ffba5c, #ff9a9a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 10px 0;
+    font-size: 2em;
+}
+
+.main-content h2 {
+    background: linear-gradient(to right, #003087, #001d6e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 10px 0;
+    font-size: 1.5em;
+}
+
+.main-content h3 {
+    background: linear-gradient(to right, #f39c12, #ffba5c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+.main-content p {
+    background: linear-gradient(to right, #003087, #001d6e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 10px 0;
+}
+
+
+/* Alignment helpers */
+.main-content .left {
+    text-align: left;
+    flex: 1;
+}
+
+.main-content .center {
+    text-align: center;
+    flex: 1;
+}
+
+.main-content .right {
+    text-align: right;
+    flex: 1;
+}
+
+/* Consistent margins */
+.main-content p, .main-content h2, .main-content li {
+    margin: 10px 0;
+}
+
+/* List item styles */
+.main-content li {
+    font-size: 18px;
+    list-style: none;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #f5f7fa; /* Soft gray-blue background for list items */
+    color: #333;
+}
+
+/* Icon for list items */
+.main-content li::before {
+    content: '⟡'; /* Soft decorative star instead of a bullet point */
+    margin-right: 8px;
+    color: #ff7e5f; /* Matches the h1 gradient */
+}
+
+.styled-table {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.styled-table thead tr {
+    background: lightblue;
+    color: #fff;
+}
+
+.styled-table th {
+    padding: 15px;
+    text-align: center;
+    border: 2px solid lightpink;
+}
+
+.styled-table tbody tr {
+    background-color: #f9f9f9;
+}
+
+.styled-table td {
+    padding: 15px;
+    text-align: center;
+    border: 2px solid lightpink;
+}
+
+.styled-table tr {
+    border-bottom: 2px solid #b6d8ff;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: none;
+}
