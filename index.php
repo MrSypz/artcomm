@@ -1,6 +1,6 @@
 <?php
 session_start();
-require '../common/session.php';
+require 'common/session.php';
 ?>
 <html lang="en">
 <head>
